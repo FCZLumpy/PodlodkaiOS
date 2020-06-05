@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AE603299248AA0D500C3F4A5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE603298248AA0D500C3F4A5 /* AppDelegate.swift */; };
+		AE60329B248AA0D500C3F4A5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE60329A248AA0D500C3F4A5 /* SceneDelegate.swift */; };
+		AE60329D248AA0D500C3F4A5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE60329C248AA0D500C3F4A5 /* ViewController.swift */; };
+		AE6032A0248AA0D500C3F4A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE60329E248AA0D500C3F4A5 /* Main.storyboard */; };
+		AE6032A3248AA0D500C3F4A5 /* Podlodka.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AE6032A1248AA0D500C3F4A5 /* Podlodka.xcdatamodeld */; };
+		AE6032A5248AA0D700C3F4A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE6032A4248AA0D700C3F4A5 /* Assets.xcassets */; };
+		AE6032A8248AA0D700C3F4A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE6032A6248AA0D700C3F4A5 /* LaunchScreen.storyboard */; };
+		AE6032B3248AA0D700C3F4A5 /* PodlodkaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6032B2248AA0D700C3F4A5 /* PodlodkaTests.swift */; };
+		AE6032BE248AA0D700C3F4A5 /* PodlodkaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6032BD248AA0D700C3F4A5 /* PodlodkaUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AE6032AF248AA0D700C3F4A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE60328D248AA0D500C3F4A5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AE603294248AA0D500C3F4A5;
+			remoteInfo = Podlodka;
+		};
+		AE6032BA248AA0D700C3F4A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE60328D248AA0D500C3F4A5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AE603294248AA0D500C3F4A5;
+			remoteInfo = Podlodka;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AE603295248AA0D500C3F4A5 /* Podlodka.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Podlodka.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE603298248AA0D500C3F4A5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AE60329A248AA0D500C3F4A5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		AE60329C248AA0D500C3F4A5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AE60329F248AA0D500C3F4A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AE6032A2248AA0D500C3F4A5 /* Podlodka.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Podlodka.xcdatamodel; sourceTree = "<group>"; };
+		AE6032A4248AA0D700C3F4A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AE6032A7248AA0D700C3F4A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AE6032A9248AA0D700C3F4A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE6032AE248AA0D700C3F4A5 /* PodlodkaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PodlodkaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE6032B2248AA0D700C3F4A5 /* PodlodkaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PodlodkaTests.swift; sourceTree = "<group>"; };
+		AE6032B4248AA0D700C3F4A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE6032B9248AA0D700C3F4A5 /* PodlodkaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PodlodkaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE6032BD248AA0D700C3F4A5 /* PodlodkaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PodlodkaUITests.swift; sourceTree = "<group>"; };
+		AE6032BF248AA0D700C3F4A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AE603292248AA0D500C3F4A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE6032AB248AA0D700C3F4A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE6032B6248AA0D700C3F4A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AE60328C248AA0D500C3F4A5 = {
+			isa = PBXGroup;
+			children = (
+				AE603297248AA0D500C3F4A5 /* Podlodka */,
+				AE6032B1248AA0D700C3F4A5 /* PodlodkaTests */,
+				AE6032BC248AA0D700C3F4A5 /* PodlodkaUITests */,
+				AE603296248AA0D500C3F4A5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AE603296248AA0D500C3F4A5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AE603295248AA0D500C3F4A5 /* Podlodka.app */,
+				AE6032AE248AA0D700C3F4A5 /* PodlodkaTests.xctest */,
+				AE6032B9248AA0D700C3F4A5 /* PodlodkaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AE603297248AA0D500C3F4A5 /* Podlodka */ = {
+			isa = PBXGroup;
+			children = (
+				AE603298248AA0D500C3F4A5 /* AppDelegate.swift */,
+				AE60329A248AA0D500C3F4A5 /* SceneDelegate.swift */,
+				AE60329C248AA0D500C3F4A5 /* ViewController.swift */,
+				AE60329E248AA0D500C3F4A5 /* Main.storyboard */,
+				AE6032A4248AA0D700C3F4A5 /* Assets.xcassets */,
+				AE6032A6248AA0D700C3F4A5 /* LaunchScreen.storyboard */,
+				AE6032A9248AA0D700C3F4A5 /* Info.plist */,
+				AE6032A1248AA0D500C3F4A5 /* Podlodka.xcdatamodeld */,
+			);
+			path = Podlodka;
+			sourceTree = "<group>";
+		};
+		AE6032B1248AA0D700C3F4A5 /* PodlodkaTests */ = {
+			isa = PBXGroup;
+			children = (
+				AE6032B2248AA0D700C3F4A5 /* PodlodkaTests.swift */,
+				AE6032B4248AA0D700C3F4A5 /* Info.plist */,
+			);
+			path = PodlodkaTests;
+			sourceTree = "<group>";
+		};
+		AE6032BC248AA0D700C3F4A5 /* PodlodkaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AE6032BD248AA0D700C3F4A5 /* PodlodkaUITests.swift */,
+				AE6032BF248AA0D700C3F4A5 /* Info.plist */,
+			);
+			path = PodlodkaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AE603294248AA0D500C3F4A5 /* Podlodka */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE6032C2248AA0D700C3F4A5 /* Build configuration list for PBXNativeTarget "Podlodka" */;
+			buildPhases = (
+				AE603291248AA0D500C3F4A5 /* Sources */,
+				AE603292248AA0D500C3F4A5 /* Frameworks */,
+				AE603293248AA0D500C3F4A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Podlodka;
+			productName = Podlodka;
+			productReference = AE603295248AA0D500C3F4A5 /* Podlodka.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AE6032AD248AA0D700C3F4A5 /* PodlodkaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE6032C5248AA0D700C3F4A5 /* Build configuration list for PBXNativeTarget "PodlodkaTests" */;
+			buildPhases = (
+				AE6032AA248AA0D700C3F4A5 /* Sources */,
+				AE6032AB248AA0D700C3F4A5 /* Frameworks */,
+				AE6032AC248AA0D700C3F4A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AE6032B0248AA0D700C3F4A5 /* PBXTargetDependency */,
+			);
+			name = PodlodkaTests;
+			productName = PodlodkaTests;
+			productReference = AE6032AE248AA0D700C3F4A5 /* PodlodkaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AE6032B8248AA0D700C3F4A5 /* PodlodkaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE6032C8248AA0D700C3F4A5 /* Build configuration list for PBXNativeTarget "PodlodkaUITests" */;
+			buildPhases = (
+				AE6032B5248AA0D700C3F4A5 /* Sources */,
+				AE6032B6248AA0D700C3F4A5 /* Frameworks */,
+				AE6032B7248AA0D700C3F4A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AE6032BB248AA0D700C3F4A5 /* PBXTargetDependency */,
+			);
+			name = PodlodkaUITests;
+			productName = PodlodkaUITests;
+			productReference = AE6032B9248AA0D700C3F4A5 /* PodlodkaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AE60328D248AA0D500C3F4A5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = HomeNow;
+				TargetAttributes = {
+					AE603294248AA0D500C3F4A5 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					AE6032AD248AA0D700C3F4A5 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = AE603294248AA0D500C3F4A5;
+					};
+					AE6032B8248AA0D700C3F4A5 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = AE603294248AA0D500C3F4A5;
+					};
+				};
+			};
+			buildConfigurationList = AE603290248AA0D500C3F4A5 /* Build configuration list for PBXProject "Podlodka" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AE60328C248AA0D500C3F4A5;
+			productRefGroup = AE603296248AA0D500C3F4A5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AE603294248AA0D500C3F4A5 /* Podlodka */,
+				AE6032AD248AA0D700C3F4A5 /* PodlodkaTests */,
+				AE6032B8248AA0D700C3F4A5 /* PodlodkaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AE603293248AA0D500C3F4A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE6032A8248AA0D700C3F4A5 /* LaunchScreen.storyboard in Resources */,
+				AE6032A5248AA0D700C3F4A5 /* Assets.xcassets in Resources */,
+				AE6032A0248AA0D500C3F4A5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE6032AC248AA0D700C3F4A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE6032B7248AA0D700C3F4A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AE603291248AA0D500C3F4A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE60329D248AA0D500C3F4A5 /* ViewController.swift in Sources */,
+				AE603299248AA0D500C3F4A5 /* AppDelegate.swift in Sources */,
+				AE60329B248AA0D500C3F4A5 /* SceneDelegate.swift in Sources */,
+				AE6032A3248AA0D500C3F4A5 /* Podlodka.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE6032AA248AA0D700C3F4A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE6032B3248AA0D700C3F4A5 /* PodlodkaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE6032B5248AA0D700C3F4A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE6032BE248AA0D700C3F4A5 /* PodlodkaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AE6032B0248AA0D700C3F4A5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AE603294248AA0D500C3F4A5 /* Podlodka */;
+			targetProxy = AE6032AF248AA0D700C3F4A5 /* PBXContainerItemProxy */;
+		};
+		AE6032BB248AA0D700C3F4A5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AE603294248AA0D500C3F4A5 /* Podlodka */;
+			targetProxy = AE6032BA248AA0D700C3F4A5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AE60329E248AA0D500C3F4A5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE60329F248AA0D500C3F4A5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AE6032A6248AA0D700C3F4A5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE6032A7248AA0D700C3F4A5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AE6032C0248AA0D700C3F4A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AE6032C1248AA0D700C3F4A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AE6032C3248AA0D700C3F4A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Podlodka/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = HomeNow.Podlodka;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AE6032C4248AA0D700C3F4A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Podlodka/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = HomeNow.Podlodka;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AE6032C6248AA0D700C3F4A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PodlodkaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = HomeNow.PodlodkaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Podlodka.app/Podlodka";
+			};
+			name = Debug;
+		};
+		AE6032C7248AA0D700C3F4A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PodlodkaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = HomeNow.PodlodkaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Podlodka.app/Podlodka";
+			};
+			name = Release;
+		};
+		AE6032C9248AA0D700C3F4A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PodlodkaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = HomeNow.PodlodkaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Podlodka;
+			};
+			name = Debug;
+		};
+		AE6032CA248AA0D700C3F4A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PodlodkaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = HomeNow.PodlodkaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Podlodka;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AE603290248AA0D500C3F4A5 /* Build configuration list for PBXProject "Podlodka" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE6032C0248AA0D700C3F4A5 /* Debug */,
+				AE6032C1248AA0D700C3F4A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE6032C2248AA0D700C3F4A5 /* Build configuration list for PBXNativeTarget "Podlodka" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE6032C3248AA0D700C3F4A5 /* Debug */,
+				AE6032C4248AA0D700C3F4A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE6032C5248AA0D700C3F4A5 /* Build configuration list for PBXNativeTarget "PodlodkaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE6032C6248AA0D700C3F4A5 /* Debug */,
+				AE6032C7248AA0D700C3F4A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE6032C8248AA0D700C3F4A5 /* Build configuration list for PBXNativeTarget "PodlodkaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE6032C9248AA0D700C3F4A5 /* Debug */,
+				AE6032CA248AA0D700C3F4A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		AE6032A1248AA0D500C3F4A5 /* Podlodka.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				AE6032A2248AA0D500C3F4A5 /* Podlodka.xcdatamodel */,
+			);
+			currentVersion = AE6032A2248AA0D500C3F4A5 /* Podlodka.xcdatamodel */;
+			path = Podlodka.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = AE60328D248AA0D500C3F4A5 /* Project object */;
+}
